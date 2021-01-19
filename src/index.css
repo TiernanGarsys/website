@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --bg-color: #333333;
+    --cell-color: #666666;
+    --font-color: #CCCCCC;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+[data-theme="chrome"] {
+    --bg-color: #333333;
+    --cell-color: #666666;
+    --font-color: #CCCCCC;
+}
+
+[data-theme="earth"]  {
+    --bg-color: #50514F;
+    --cell-color: #CBD4C2;
+    --font-color: #50514F;
+}
+
+[data-theme="nautilus"]  {
+    --bg-color: #2B3D41;
+    --cell-color: #83A0A0;
+    --font-color: #2B3D41;
+}
+
+[data-theme="mint"]  {
+    --bg-color: #6B9080;
+    --cell-color: #CCE3DE;
+    --font-color: #6B9080;
+}
+
+[data-theme="cheesecake"]  {
+    --bg-color: #AA4465;
+    --cell-color: #EDF0DA;
+    --font-color: #AA4465;
+}
+
+[data-theme="cinema"]  {
+    --bg-color: #2F4858;
+    --cell-color: #F6AE2D;
+    --font-color: #2F4858;
+}
+
+font-face {
+  font-family: "firaCode";
+  src: url("fonts/FiraCode-Bold.woff2");
+}
+
+body {
+  background: var(--bg-color);
+  margin: 0;
+  font-family: firaCode, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
