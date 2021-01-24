@@ -5,17 +5,17 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import * as _ from 'underscore'
 
 const THEME_NAMES = [
   'cheesecake',
-  'chrome',
   'cinema',
   'earth',
   'mint',
   'nautilus',
+  'eggplant',
+  'coffee',
 ]
 
 function App() {
