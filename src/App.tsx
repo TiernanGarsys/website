@@ -1,5 +1,13 @@
-import * as _ from 'underscore'
 import './App.css';
+import Home from './Home';
+import './themes.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import * as _ from 'underscore'
 
 const THEME_NAMES = [
   'cheesecake',
@@ -15,40 +23,14 @@ function App() {
   document.documentElement.setAttribute('data-theme', theme!)
 
   return (
-    <div className="App">
-      <div className="centered">
-        <div className="pod">
-          <div className="subtitle">
-            You've found the internet homepage of
-          </div>
-          <div className="title">
-            Tiernan Garsys
-          </div>
-        </div>
-      </div>
-      <div className="centered">
-        <div className="pod">
-          <div className="subtitle">
-            About
-          </div>
-        </div>
-      </div>
-      <div className="centered">
-        <div className="pod">
-          <div className="subtitle">
-            Code
-          </div>
-        </div>
-      </div>
-      <div className="centered">
-        <div className="pod">
-          <div className="subtitle">
-            Music
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+      <Router>
+        <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    );
 }
 
 export default App;
