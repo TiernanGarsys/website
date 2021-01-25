@@ -60,6 +60,9 @@ function Home() {
           <Link to="/music">music</Link>
         </div>
       </div>
+      <div className="cell footnote">
+        Remember to drink water!
+      </div>
     </div>
   );
 }

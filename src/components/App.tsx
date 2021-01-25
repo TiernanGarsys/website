@@ -1,5 +1,3 @@
-import './common.css';
-
 import Home from './Home';
 import Music from './Music';
 import Projects from './Projects';
