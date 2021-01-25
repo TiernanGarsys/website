@@ -1,4 +1,6 @@
-import './Home.css'
+import './common.css'
+
+import {Link} from 'react-router-dom';
 import {ReactComponent as CodeLogo} from '../assets/code.svg';
 import {ReactComponent as GithubLogo} from '../assets/github.svg';
 import {ReactComponent as InstagramLogo} from '../assets/instagram.svg';
@@ -46,15 +48,11 @@ function Home() {
       <div className="cell">
         <div className="mini-cell">
           <CodeLogo/>
-          <a href="https://www.instagram.com/garsysistic/">
-            code
-          </a>
+          <Link to="/projects">projects</Link>
         </div>
         <div className="mini-cell">
           <MusicLogo/>
-          <a href="https://www.instagram.com/garsysistic/">
-            music
-          </a>
+          <Link to="/music">music</Link>
         </div>
       </div>
     </div>

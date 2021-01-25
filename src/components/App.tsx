@@ -1,8 +1,11 @@
-import './App.css';
+import './common.css';
+
 import Home from './Home';
+import Music from './Music';
+import Projects from './Projects';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -25,8 +28,14 @@ function App() {
   return (
       <Router>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/music">
+            <Music />
           </Route>
         </Switch>
       </Router>
