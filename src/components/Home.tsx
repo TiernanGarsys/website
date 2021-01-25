@@ -5,6 +5,7 @@ import {ReactComponent as CodeLogo} from '../assets/code.svg';
 import {ReactComponent as GithubLogo} from '../assets/github.svg';
 import {ReactComponent as InstagramLogo} from '../assets/instagram.svg';
 import {ReactComponent as LinkedInLogo} from '../assets/linkedin.svg';
+import {ReactComponent as MailLogo} from '../assets/mail.svg';
 import {ReactComponent as MusicLogo} from '../assets/music.svg';
 import {ReactComponent as TwitterLogo} from '../assets/twitter.svg';
 
@@ -42,6 +43,12 @@ function Home() {
           <InstagramLogo />
           <a href="https://www.instagram.com/garsysistic/">
             garsysistic
+          </a>
+        </div>
+        <div className="mini-cell">
+          <MailLogo />
+          <a href="mailto:garsystiernan@ygmail.com">
+            garsystiernan@gmail
           </a>
         </div>
       </div>
