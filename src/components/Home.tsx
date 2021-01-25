@@ -12,10 +12,10 @@ function Home() {
     <div className="App">
       <div className="cell">
         <div className="subtitle">
-          Welcome to the internet homepage of
+          welcome to the internet homepage of
         </div>
         <div className="title">
-          Tiernan Garsys
+          tiernan garsys
         </div>
       </div>
       <div className="cell">
@@ -61,7 +61,7 @@ function Home() {
         </div>
       </div>
       <div className="cell footnote">
-        Remember to drink water!
+        remember to drink water!
       </div>
     </div>
   );
