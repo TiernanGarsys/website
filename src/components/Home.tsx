@@ -1,4 +1,8 @@
-import './App.css';
+import './Home.css'
+import {ReactComponent as GithubLogo} from '../assets/github.svg';
+import {ReactComponent as InstagramLogo} from '../assets/instagram.svg';
+import {ReactComponent as TwitterLogo} from '../assets/twitter.svg';
+import {ReactComponent as LinkedInLogo} from '../assets/linkedin.svg';
 
 function Home() {
   return (
@@ -12,8 +16,29 @@ function Home() {
         </div>
       </div>
       <div className="cell">
-        <div className="subtitle">
-          About
+        <div className="mini-cell">
+          <a href="https://www.linkedin.com/in/tiernangarsys/">
+            <LinkedInLogo className="inline" />
+            tiernangarsys
+          </a>
+        </div>
+        <div className="mini-cell">
+          <a href="https://twitter.com/tiernan_garsys">
+            <TwitterLogo className="inline" />
+            tiernan_garsys
+          </a>
+        </div>
+        <div className="mini-cell">
+          <a href="https://github.com/TiernanGarsys">
+            <GithubLogo className="inline" />
+            TiernanGarsys
+          </a>
+        </div>
+        <div className="mini-cell">
+          <a href="https://www.instagram.com/garsysistic/">
+            <InstagramLogo className="inline" />
+            garsysistic
+          </a>
         </div>
       </div>
       <div className="cell">
