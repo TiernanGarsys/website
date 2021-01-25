@@ -1,5 +1,3 @@
-import './common.css'
-
 import {Link} from 'react-router-dom';
 import {ReactComponent as CodeLogo} from '../assets/code.svg';
 import {ReactComponent as GithubLogo} from '../assets/github.svg';
@@ -47,7 +45,7 @@ function Home() {
         </div>
         <div className="mini-cell">
           <MailLogo />
-          <a href="mailto:garsystiernan@ygmail.com" target="_blank" rel="noreferrer noopener">
+          <a href="mailto:garsystiernan@gmail.com" target="_blank" rel="noreferrer noopener">
             garsystiernan@gmail
           </a>
         </div>
