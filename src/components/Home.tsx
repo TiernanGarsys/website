@@ -23,31 +23,31 @@ function Home() {
       <div className="cell">
         <div className="mini-cell">
           <LinkedInLogo />
-          <a href="https://www.linkedin.com/in/tiernangarsys/">
+          <a href="https://www.linkedin.com/in/tiernangarsys/" target="_blank" rel="noreferrer noopener">
             tiernangarsys
           </a>
         </div>
         <div className="mini-cell">
           <TwitterLogo />
-          <a href="https://twitter.com/tiernan_garsys">
+          <a href="https://twitter.com/tiernan_garsys" target="_blank" rel="noreferrer noopener">
             tiernan_garsys
           </a>
         </div>
         <div className="mini-cell">
           <GithubLogo />
-          <a href="https://github.com/TiernanGarsys">
+          <a href="https://github.com/TiernanGarsys" target="_blank" rel="noreferrer noopener">
             tiernangarsys
           </a>
         </div>
         <div className="mini-cell">
           <InstagramLogo />
-          <a href="https://www.instagram.com/garsysistic/">
+          <a href="https://www.instagram.com/garsysistic/" target="_blank" rel="noreferrer noopener">
             garsysistic
           </a>
         </div>
         <div className="mini-cell">
           <MailLogo />
-          <a href="mailto:garsystiernan@ygmail.com">
+          <a href="mailto:garsystiernan@ygmail.com" target="_blank" rel="noreferrer noopener">
             garsystiernan@gmail
           </a>
         </div>
