@@ -1,8 +1,10 @@
 import './Home.css'
+import {ReactComponent as CodeLogo} from '../assets/code.svg';
 import {ReactComponent as GithubLogo} from '../assets/github.svg';
 import {ReactComponent as InstagramLogo} from '../assets/instagram.svg';
-import {ReactComponent as TwitterLogo} from '../assets/twitter.svg';
 import {ReactComponent as LinkedInLogo} from '../assets/linkedin.svg';
+import {ReactComponent as MusicLogo} from '../assets/music.svg';
+import {ReactComponent as TwitterLogo} from '../assets/twitter.svg';
 
 function Home() {
   return (
@@ -17,42 +19,45 @@ function Home() {
       </div>
       <div className="cell">
         <div className="mini-cell">
+          <LinkedInLogo />
           <a href="https://www.linkedin.com/in/tiernangarsys/">
-            <LinkedInLogo className="inline" />
             tiernangarsys
           </a>
         </div>
         <div className="mini-cell">
+          <TwitterLogo />
           <a href="https://twitter.com/tiernan_garsys">
-            <TwitterLogo className="inline" />
             tiernan_garsys
           </a>
         </div>
         <div className="mini-cell">
+          <GithubLogo />
           <a href="https://github.com/TiernanGarsys">
-            <GithubLogo className="inline" />
-            TiernanGarsys
+            tiernangarsys
           </a>
         </div>
         <div className="mini-cell">
+          <InstagramLogo />
           <a href="https://www.instagram.com/garsysistic/">
-            <InstagramLogo className="inline" />
             garsysistic
           </a>
         </div>
       </div>
       <div className="cell">
-        <div className="subtitle">
-          Code
+        <div className="mini-cell">
+          <CodeLogo/>
+          <a href="https://www.instagram.com/garsysistic/">
+            code
+          </a>
         </div>
-      </div>
-      <div className="cell">
-        <div className="subtitle">
-          Music
+        <div className="mini-cell">
+          <MusicLogo/>
+          <a href="https://www.instagram.com/garsysistic/">
+            music
+          </a>
         </div>
       </div>
     </div>
-    
   );
 }
 

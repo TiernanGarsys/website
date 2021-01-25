@@ -1,12 +1,12 @@
-font-face {
-  font-family: "cutive";
-  src: url("fonts/CutiveMono-Regular.ttf");
+@font-face {
+  font-family: "dafont";
+  src: url("fonts/FiraCode-SemiBold.woff2");
 }
 
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  font-family: cutive, monospace;
+  font-family: dafont, monospace;
   font-weight: bold;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +20,7 @@ a {
 svg {
   fill: var(--text-color);
   height: 1em;
-  margin: 0 8px 0 0;
+  margin: 0 14px 0 0;
   position: relative;
   top: .125em;
   width: 1em;
@@ -31,6 +31,7 @@ svg {
 }
 
 .mini-cell {
+  font-size: 20px;
   margin: 12px auto 12px auto;
 }
 
