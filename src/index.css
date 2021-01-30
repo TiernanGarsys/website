@@ -31,8 +31,12 @@ svg {
 }
 
 .mini-cell {
-  font-size: 20px;
   margin: 12px auto 12px auto;
+}
+
+.headtext {
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .title {
@@ -42,6 +46,10 @@ svg {
 
 .subtitle {
   font-size: 20px;
+}
+
+.text {
+  font-size: 16px;
   font-weight: bold;
 }
 

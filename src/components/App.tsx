@@ -1,6 +1,4 @@
 import Home from './Home';
-import Music from './Music';
-import Projects from './Projects';
 
 import {
   HashRouter as Router,
@@ -28,12 +26,6 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/music">
-            <Music />
           </Route>
         </Switch>
       </Router>
